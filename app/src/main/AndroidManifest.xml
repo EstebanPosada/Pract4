@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.estebanposada.pract4" >
+    package="com.estebanposada.pract4"
+    android:installLocation="preferExternal">
 
     <application
         android:allowBackup="true"
@@ -51,6 +52,38 @@
         <activity
             android:name=".hotel3"
             android:label="@string/title_activity_hotel3" >
+        </activity>
+        <activity
+            android:name=".bar1"
+            android:label="@string/title_activity_bar1" >
+        </activity>
+        <activity
+            android:name=".bar2"
+            android:label="@string/title_activity_bar2" >
+        </activity>
+        <activity
+            android:name=".bar3"
+            android:label="@string/title_activity_bar3" >
+        </activity>
+        <activity
+            android:name=".bar4"
+            android:label="@string/title_activity_bar4" >
+        </activity>
+        <activity
+            android:name=".turis1"
+            android:label="@string/title_activity_turis1" >
+        </activity>
+        <activity
+            android:name=".turis2"
+            android:label="@string/title_activity_turis2" >
+        </activity>
+        <activity
+            android:name=".turis3"
+            android:label="@string/title_activity_turis3" >
+        </activity>
+        <activity
+            android:name=".turis4"
+            android:label="@string/title_activity_turis4" >
         </activity>
     </application>
 

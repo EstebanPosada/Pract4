@@ -5,44 +5,48 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
+            android:background="@drawable/hinterlogo"
             android:orientation="vertical"
-            android:background="@drawable/hinter1"
             android:weightSum="1">
             <TextView
-                android:text="@string/hotel3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:text="@string/hotel3"
                 android:textColor="@color/white"
-                android:textSize="30dp"
-                android:layout_weight="0.8"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hotel3info"
-                android:textColor="@color/cornsilk"
-                android:textSize="20dp"
-                android:layout_margin="10dp"
-                />
+                android:textSize="30dp"/>
+
         </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:orientation="vertical"
-            android:background="@drawable/hinter2">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/hotel3info"
-                android:textColor="@color/white"
-                android:layout_margin="10dp"
-                android:textSize="20dp"/>
+            android:background="@drawable/hinter1"
+            android:orientation="vertical">
+
         </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/hinter2"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/hotel3info"
+            android:textColor="@color/white"
+            android:textSize="16dp"/>
+    </LinearLayout>
     </LinearLayout>
 </ScrollView>

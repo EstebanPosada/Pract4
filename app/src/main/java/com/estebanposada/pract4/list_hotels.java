@@ -34,6 +34,12 @@ public class list_hotels extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_hotels);
 
+        String[] nombre =getResources().getStringArray(R.array.Mhotel);
+       // String[] info =getResources().getStringArray(R.array.Minfo);
+        datosh[0].setHotel(nombre[0]);    //datos[0].setInfo(info[0]);
+        datosh[1].setHotel(nombre[1]);    //datos[1].setInfo(info[1]);
+        datosh[2].setHotel(nombre[2]);   // datos[2].setInfo(info[2]);
+
 
         Adapter2 adaptador2 = new Adapter2(this, datosh);
         lsthotel = (ListView) findViewById(R.id.lsth);
@@ -63,6 +69,28 @@ public class list_hotels extends AppCompatActivity {
         });
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_list_hotels, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
     public class Adapter2 extends ArrayAdapter {
         public Adapter2(Context context, Lista_hotel[] datosh) {
             super(context, R.layout.layout_hotel_list, datosh);
@@ -86,28 +114,5 @@ public class list_hotels extends AppCompatActivity {
 
             return item2;
         }
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_list_hotels, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

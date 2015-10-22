@@ -6,55 +6,48 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/black"
         android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
+        android:background="@drawable/hcasa_de_alferez1_1"
         android:orientation="vertical"
-        android:background="@drawable/hcasa_de_alferez1"
         android:weightSum="1">
     <TextView
-        android:text="@string/hotel1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:layout_weight="0.8"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hotel1info"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20dp"
-             />
+        android:layout_weight="0.8"
+        android:text="@string/hotel1"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/hcasa_de_alferez2"
+        android:orientation="vertical">
+
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:orientation="vertical"
-        android:background="@drawable/hcasa_de_alferez2">
+        android:layout_height="420dp"
+        android:background="@drawable/hcasa_de_alferez3"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/hotel1info"
             android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:orientation="vertical"
-        android:background="@drawable/hcasa_de_alferez3">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hotel1info"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
+            android:textSize="16dp"/>
     </LinearLayout>
     </LinearLayout>
 </ScrollView>

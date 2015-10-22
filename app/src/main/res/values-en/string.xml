@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turistic Cali</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu">Item</string>
+    <string name="publi">Advertising</string>
+    <string name="info">Information</string>
+    <string name="hotel">Hotel</string>
+    <string name="demog">Demographic</string>
+    <string name="turist">Turistic Sites</string>
+    <string name="acerca">About ...</string>
+    <string name="bar">Bars</string>
+
+    <string-array name="Mmenu">
+        <item>Advertising</item>
+        <item>Hotel</item>
+        <item>Bars</item>
+        <item>Turistic Sites</item>
+        <item>Demographic</item>
+        <item>About ...</item>
+    </string-array>
+    <string-array name="Minfo">
+        <item>Come to Cali</item>
+        <item>Stay at Cali</item>
+        <item>Enjoy Cali</item>
+        <item>Visit Cali</item>
+        <item>Cali information</item>
+        <item>About the designer</item>
+    </string-array>
+    <string-array name="Mhotel">
+        <item>Casa de Alferez</item>
+        <item>Dann Carlton</item>
+        <item>Intercontinental</item>
+    </string-array>
+    <string-array name="Mbars">
+        <item>Delirio Bar</item>
+        <item>Fonda la matraca</item>
+        <item>Kukaramakara</item>
+        <item>Zaperoco</item>
+    </string-array>
+    <string-array name="Mturi">
+        <item>Cali Zoo</item>
+        <item>Caña de Azucar Museum</item>
+        <item>Cristo Rey</item>
+        <item>Feria de Cali</item>
+    </string-array>
+
+    <string name="encabezado">Cali’s cheerful nature is manifested in salsa, a Caribbean rhythm that is danced here among
+        the sugarcane in its own unique way. In this city, nicknamed "Branch of Heaven,” the peaks of Cristo Rey, the hill of
+        the Three Crosses, and the hills of San Antonio jut upwards from the plains that make up most of Valle del Cauca.</string>
+    <string name="title_activity_publicidad">Publicidad</string>
+    <string name="medio">Además de ser uno de los principales centros urbanos, industriales y culturales de Colombia,
+        Cali es un lugar vibrante que anualmente atrae a visitantes de todos los rincones del mundo.
+        ¡Prepara tu viaje con esta guía turística y descubre por qué se dice que el cielo tiene sucursal en Colombia!</string>
+    <string name="tithacer">¿WHAT TO DO IN CALI?</string>
+    <string name="hacer">
+        Cali, founded in 1536, can be explored on foot: walk under the shade of trees along the riverbank, admire the architecture
+        of churches and other national monuments, and visit the city’s many museums. In Cali, travelers can enjoy music festivals,
+        learn about sugarcane farming, and take in the mountainous landscapes.  .</string>
+    <string name="titexpe">UNIQUE EXPERIENCES</string>
+    <string name="expe">
+        Salsa dancing may seem difficult, especially when it’s performed by master pairs and dance groups that have spent years
+        perfecting their movement, coordination, and speed. There are numerous opportunities in Cali for tourists to try their hand
+        at this energetic dance, as there are a number of dance academies and schools offering lessons tailor-made for beginners.
+        The city has also earned a reputation as a major destination for shopping.</string>
+    <string name="titactivi">CAN’T-MISS ACTIVITIES</string>
+    <string name="activi">
+        With salsa music always playing in the background, Cali hosts a unique fair and offers a vast array of museums,
+        colonial churches, a zoo, and sites of great environmental importance in the surrounding area.</string>
+    <string name="title_activity_list_hotels">listHotels</string>
+    <string name="title_activity_bars">bars</string>
+    <string name="title_activity_turistic">turistic</string>
+    <string name="title_activity_demografia">Demografia</string>
+
+    <string name="demo1">Cali no escapa a la tendencia colombiana de crecimiento de las áreas urbanas en detrimento de la población rural, tanto así que la ciudad (y su área metropolitana) duplicó su participación en la población vallecaucana y del país, hoy en día más del 60% de la población del Valle del Cauca habita en Cali y su área metropolitana.</string>
+    <string name="demo2">En cuanto a la distribución de la población, Cali es una ciudad habitada por gente joven según estadísticas del DANE. El grueso de la población es menor de 40 años. También se observa una mayor población de mujeres en casi todos los rangos de edad, excepto entre la población más joven, igualmente se ve como la edad promedio de las mujeres es mayor que la de los hombres.</string>
+    <string name="demo3">Un aspecto destacado de la demografía caleña, y en general del occidente colombiano, es el alto porcentaje de población afro-colombiana, aproximadamente un 26%,32 lo que hace de Cali una de las urbes latinoamericanas con mayor población de raza negra. La influencia afro-colombiana en la cultura caleña es evidente en los aspectos musicales, por ejemplo, la ciudad es reconocida por sus orquestas de música salsa.</string>
+    <string name="title_activity_about">About</string>
+    <string name="about_me">Esteban Posada Vásquez
+    Estudiante Ingeniería Electrónica
+    Cursando Noveno Semestre
+    Técnico en manteniemiento y reparación de computadores
+    Soltero
+    Tel: 321 725 51 99
+    Correo: sircpos@hotmail.com</string>
+    <string name="title_activity_hotel1">hotel1</string>
+
+    <string name="hotel1">Casa Alferez</string>
+    <string name="hotel1info">Phone number:  (572) 661 8111\n\r Address: 9North Av 9-24 Sector B \n\r   Visit website: \n\r
+        https://www.movichhotels.com/esp/cali/casadelalferez/Pages/index.aspx</string>
+    <string name="hotel2">Dann Carlton</string>
+    <string name="hotel2info">Phone number: (57 2) 886 2000 \n\r Address: 2ªAv Nº 1-60 \n\r   Visit website: \n\r
+        https://www.hotelesdanncali.com.co/portal \n\r     E-mail: reservas@hotelesdanncali.com.co</string>
+    <string name="hotel3">International</string>
+    <string name="hotel3info">Phone number: 8823225\n\r Address: Colombia Av No. 2-72 \n\r   Visit website: \n\r
+        http://www.ihg.com/intercontinental/hotels/us/es/reservation \n\r     E-mail: iccali.reservas@ihg.com</string>
+
+    <string name="bar1">Delirio Bar</string>
+    <string name="bar1info">Phone number: (57-2) 8937610\n\r Address: 22 St North # 9-63 B/ Santa Mónica \n\r   Visit website: \n\r
+        http://delirio.com.co/es/</string>
+    <string name="bar2">Fonda la Matraca</string>
+    <string name="bar2info">Phone number: 8857113\n\r Address: 11 Av # 22-80 B/ Obrero \n\r   Visit website: \n\r
+        http://www.lamatracacali.com/ \n\r     E-mail: vosyyoespaciotango@hotmail.com</string>
+    <string name="bar3">Kukaramakara</string>
+    <string name="bar3info">Phone number: (57 2) 653 5389\n\r Address:  28N St No. 2bis-97 \n\r  Schedule: Thursday to  Saturday  9pm to 2am \n\r
+        Visit website: \n\r    http://www.kukaramakara.com/cali/index.php \n\r     E-mail: vosyyoespaciotango@hotmail.com</string>
+    <string name="bar4">Zaperoco</string>
+    <string name="bar4info">Phone number: 6612040\n\r Address: 5North Av #16-46 \n\r   Visit website: \n\r
+        http://zaperocobar.com/</string>
+
+    <string name="turi1">Cali Zoo</string>
+    <string name="turi1info">Phone number: (57 2) 488 0888\n\r Address: 2 Av Oeste Calle 14 - Santa Teresita \n\r  Schedule: 9:00AM - 4:30PM
+        Visit website: \n\r    http://www.zoologicodecali.com.co/ \n\r    Fare: Adultos $16.000, Niños $11.000</string>
+    <string name="turi2">Caña de azucar museum</string>
+    <string name="turi2info">Phone number: 57 (2) 554 0809\n\r Address: Calle 9 No. 28-103, Valle del Cauca\n\r  Schedule: 9:00AM - 4:00PM
+        Visit website: \n\r    http://www.museocanadeazucar.com/ \n\r    E-mail: promoeventoscali@hotmail.com</string>
+    <string name="turi3">Cristo Rey</string>
+    <string name="turi3info">Address: Arboledas Santa Teresita, Cali, Valle del Cauca\n\r  Recomended Schedule: 9:00 am a 5:00 pm</string>
+    <string name="turi4">Feria de Cali</string>
+    <string name="turi4info">Betwen 25th and 30th December \n\r
+        Visit website: \n\r    http://www.feriadecali.com/ \n\r</string>
+
+    <string name="title_activity_hotel2">hotel2</string>
+    <string name="title_activity_hotel3">hotel3</string>
+    <string name="title_activity_bar1">bar1</string>
+    <string name="title_activity_bar2">bar2</string>
+    <string name="title_activity_bar3">bar3</string>
+    <string name="title_activity_bar4">bar4</string>
+    <string name="title_activity_turis1">turis1</string>
+    <string name="title_activity_turis2">turis2</string>
+    <string name="title_activity_turis3">turis3</string>
+    <string name="title_activity_turis4">turis4</string>
+
+</resources>

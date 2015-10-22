@@ -5,57 +5,49 @@
     android:layout_height="match_parent">
 
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
+        android:background="@drawable/hdan_carltoned_1"
         android:orientation="vertical"
-        android:background="@drawable/hdan_carltoned"
         android:weightSum="1">
         <TextView
-            android:text="@string/hotel2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/white"
-            android:textSize="30dp"
+            android:layout_margin="10dp"
             android:layout_weight="0.8"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hotel2info"
-            android:textColor="@color/cornsilk"
-            android:textSize="20dp"
-            android:layout_margin="10dp"            />
+            android:text="@string/hotel2"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"/>
+
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:orientation="vertical"
-        android:background="@drawable/hdan_carltoned2">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hotel2info"
-            android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
+        android:background="@drawable/hdan_carltoned2"
+        android:orientation="vertical">
+
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:orientation="vertical"
-        android:background="@drawable/hdan_carlton1">
+        android:background="@drawable/hdan_carlton1"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="150dp"
             android:text="@string/hotel2info"
             android:textColor="@color/white"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
+            android:textSize="14dp"/>
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

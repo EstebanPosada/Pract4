@@ -12,6 +12,7 @@ public class Lista_turistic {
         Idimagen = idimagen;
         this.info4 = info4;
         this.turi = turi;
+
     }
 
     public int getIdimagen() {
@@ -22,7 +23,15 @@ public class Lista_turistic {
         return info4;
     }
 
+    public void setInfo4(String info4) {
+        this.info4 = info4;
+    }
+
     public String getTuri() {
         return turi;
+    }
+
+    public void setTuri(String turi) {
+        this.turi = turi;
     }
 }

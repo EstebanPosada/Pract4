@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     private Lista_menu[] datos =
             new Lista_menu[]{
-                    new Lista_menu(R.drawable.publi, "Advertising", "Come to Cali"),
-                    new Lista_menu(R.drawable.hotel, "Hotels", "Stay at Cali"),
-                    new Lista_menu(R.drawable.bares, "Bars", "Enjoy Cali"),
+                    new Lista_menu(R.drawable.publi, "Adveting", "Come to Cali"),
+                    new Lista_menu(R.drawable.hotel, "Hols", "Stay at Cali"),
+                    new Lista_menu(R.drawable.bares, "Bs", "Enjoy Cali"),
                     new Lista_menu(R.drawable.turi, "Turistic Sites", "Visit Cali"),
                     new Lista_menu(R.drawable.demo, "Demographic", "Cali information"),
                     new Lista_menu(R.drawable.acerca, "About...", "About the city")
@@ -38,19 +38,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String[] nombre =getResources().getStringArray(R.array.Mmenu);
+        String[] info =getResources().getStringArray(R.array.Minfo);
+        datos[0].setMenu(nombre[0]);    datos[0].setInfo(info[0]);
+        datos[1].setMenu(nombre[1]);    datos[1].setInfo(info[1]);
+        datos[2].setMenu(nombre[2]);    datos[2].setInfo(info[2]);
+        datos[3].setMenu(nombre[3]);    datos[3].setInfo(info[3]);
+        datos[4].setMenu(nombre[4]);    datos[4].setInfo(info[4]);
+
 
         Adapter adaptador = new Adapter(this, datos);
-
         lstmenu = (ListView) findViewById(R.id.lst);
         lstmenu.setAdapter(adaptador);
-
-
-        lstmenu.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+        lstmenu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Toast.makeText(MainActivity.this, String.valueOf(parent.getItemIdAtPosition(position)), Toast.LENGTH_LONG).show();
-                sel = (int)parent.getItemIdAtPosition(position);
+                sel = (int) parent.getItemIdAtPosition(position);
                 //seli=(int)sel;
                 switch (sel) {
                     case 0:
@@ -83,6 +88,28 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
     public class Adapter extends ArrayAdapter {
         public Adapter(Context context, Lista_menu[] datos) {
             super(context, R.layout.layout_item_list, datos);
@@ -105,27 +132,5 @@ public class MainActivity extends AppCompatActivity {
 
             return item;
         }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

@@ -22,7 +22,15 @@ public class Lista_hotel {
         return hotel;
     }
 
+    public void setHotel(String hotel) {
+        this.hotel = hotel;
+    }
+
     public String getInfo2() {
         return info2;
+    }
+
+    public void setInfo2(String info2) {
+        this.info2 = info2;
     }
 }

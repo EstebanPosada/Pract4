@@ -1,6 +1,7 @@
 package com.estebanposada.pract4;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -34,6 +35,13 @@ public class bars extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bars);
 
+        String[] nombre =getResources().getStringArray(R.array.Mbars);
+        //String[] info =getResources().getStringArray(R.array.Minfo);
+        datosb[0].setBar(nombre[0]);    //datos[0].setInfo(info[0]);
+        datosb[1].setBar(nombre[1]);  //  datos[1].setInfo(info[1]);
+        datosb[2].setBar(nombre[2]);    //datos[2].setInfo(info[2]);
+        datosb[3].setBar(nombre[3]);    //datos[3].setInfo(info[3]);
+
         Adapter3 adaptador3 = new Adapter3(this, datosb);
         lstbar = (ListView) findViewById(R.id.lstb);
         lstbar.setAdapter(adaptador3);
@@ -45,19 +53,45 @@ public class bars extends AppCompatActivity {
                 switch (selb){
                     case 0:
                         Toast.makeText(bars.this, "Delirio bar", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), bar1.class));
                         break;
                     case 1:
-                        Toast.makeText(bars.this, "Fonda la Matrac", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(bars.this, "Fonda la Matraca", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), bar2.class));
                         break;
                     case 2:
                         Toast.makeText(bars.this, "Kukaramakara", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), bar3.class));
                         break;
                     case 3:
                         Toast.makeText(bars.this, "Zaperoco", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), bar4.class));
                         break;
                 }
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_bars, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     public class Adapter3 extends ArrayAdapter {
@@ -83,27 +117,5 @@ public class bars extends AppCompatActivity {
 
             return item3;
         }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_bars, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

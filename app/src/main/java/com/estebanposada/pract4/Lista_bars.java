@@ -18,11 +18,19 @@ public class Lista_bars {
         return bar;
     }
 
+    public void setBar(String bar) {
+        this.bar = bar;
+    }
+
     public int getIdimage() {
         return Idimage;
     }
 
     public String getInfo3() {
         return info3;
+    }
+
+    public void setInfo3(String info3) {
+        this.info3 = info3;
     }
 }

@@ -1,14 +1,51 @@
 <resources>
-    <string name="app_name">Pract4</string>
+    <string name="app_name">Cali Turística</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     
     <string name="menu">Item</string>
-    <string name="info">Info</string>
+    <string name="publi">Publicidad</string>
+    <string name="info">Información</string>
     <string name="hotel">Hotel</string>
-    <string name="turist">Turistic</string>
-    <string name="bar">Bars</string>
+    <string name="demog">Demografía</string>
+    <string name="turist">Sitios Turísticos</string>
+    <string name="acerca">Acerca de ...</string>
+    <string name="bar">Bares</string>
+
+    <string-array name="Mmenu">
+        <item>Publicidad</item>
+        <item>Hotel</item>
+        <item>Bares</item>
+        <item>Sitios Turísticos</item>
+        <item>Demografía</item>
+        <item>Acerca de ...</item>
+    </string-array>
+    <string-array name="Minfo">
+        <item>Ven a Cali</item>
+        <item>Quédate en Cali</item>
+        <item>Disfruta Cali</item>
+        <item>Visita Cali</item>
+        <item>Información</item>
+        <item>Acerca del diseñador</item>
+    </string-array>
+    <string-array name="Mhotel">
+        <item>Casa de Alferez</item>
+        <item>Dann Carlton</item>
+        <item>Intercontinental</item>
+    </string-array>
+    <string-array name="Mbars">
+        <item>Delirio Bar</item>
+        <item>Fonda la matraca</item>
+        <item>Kukaramakara</item>
+        <item>Zaperoco</item>
+    </string-array>
+    <string-array name="Mturi">
+        <item>Zoológico de Cali</item>
+        <item>Museo de la caña de Azucar</item>
+        <item>Cristo Rey</item>
+        <item>Feria de Cali</item>
+    </string-array>
 
     <string name="encabezado">En Cali es preciso detenerse para explorar su cultura alegre, que se manifiesta en la salsa,
         un ritmo del Caribe que aquí, entre cultivos de caña de azúcar, se siente y se baila de una manera particular. En
@@ -43,38 +80,59 @@
     <string name="demo2">En cuanto a la distribución de la población, Cali es una ciudad habitada por gente joven según estadísticas del DANE. El grueso de la población es menor de 40 años. También se observa una mayor población de mujeres en casi todos los rangos de edad, excepto entre la población más joven, igualmente se ve como la edad promedio de las mujeres es mayor que la de los hombres.</string>
     <string name="demo3">Un aspecto destacado de la demografía caleña, y en general del occidente colombiano, es el alto porcentaje de población afro-colombiana, aproximadamente un 26%,32 lo que hace de Cali una de las urbes latinoamericanas con mayor población de raza negra. La influencia afro-colombiana en la cultura caleña es evidente en los aspectos musicales, por ejemplo, la ciudad es reconocida por sus orquestas de música salsa.</string>
     <string name="title_activity_about">About</string>
-    <string name="about_me">Esteban Posada Vásquez
-    Estudiante Ingeniería Electrónica
-    Cursando Noveno Semestre
-    Técnico en manteniemiento y reparación de computadores
-    Soltero
-    Tel: 321 725 51 99
+    <string name="about_me">Esteban Posada Vásquez\n\r
+    Estudiante Ingeniería Electrónica\n\r
+    Cursando Noveno Semestre\n\r
+    Técnico en manteniemiento y reparación de computadores\n\r
+    Soltero\n\r
+    Tel: 321 725 51 99\n\r
     Correo: sircpos@hotmail.com</string>
     <string name="title_activity_hotel1">hotel1</string>
 
     <string name="hotel1">Casa Alferez</string>
-    <string name="hotel1info">Esta es la información del hotel Casa Alferez</string>
-    <string name="hotel2">Dan Carlton</string>
-    <string name="hotel2info">Esta es la información del hotel Dan Carlton</string>
+    <string name="hotel1info">Telefono:  (572) 661 8111\n\r Dirección: AV 9N 9-24 Sector B \n\r   Visita el sitio web: \n\r
+        https://www.movichhotels.com/esp/cali/casadelalferez/Pages/index.aspx</string>
+    <string name="hotel2">Dann Carlton</string>
+    <string name="hotel2info">Telefono: (57 2) 886 2000 \n\r Dirección: Carrera 2ª Nº 1-60 \n\r   Visita el sitio web: \n\r
+        https://www.hotelesdanncali.com.co/portal \n\r     Correo: reservas@hotelesdanncali.com.co</string>
     <string name="hotel3">International</string>
-    <string name="hotel3info">Esta es la información del hotel International</string>
+    <string name="hotel3info">Telefono: 8823225\n\r Dirección: Av. Colombia No. 2-72 \n\r   Visita el sitio web: \n\r
+        http://www.ihg.com/intercontinental/hotels/us/es/reservation \n\r     Correo: iccali.reservas@ihg.com</string>
+
     <string name="bar1">Delirio Bar</string>
-    <string name="bar1info">Esta es la información de Delirio Bar</string>
+    <string name="bar1info">Telefono: (57-2)8937610\n\r Dirección: Calle 22Norte #9-63 B.Santa Mónica \n\r   Visita el sitio web:
+        http://delirio.com.co/es/</string>
     <string name="bar2">Fonda la Matraca</string>
-    <string name="bar2info">Esta es la información de Fonda la Matraca</string>
+    <string name="bar2info">Telefono: 8857113\n\r Dirección: Crra 11 # 22-80 B/ Obrero \n\r   Visita el sitio web: \n\r
+        http://www.lamatracacali.com/ \n\r     Correo: vosyyoespaciotango@hotmail.com</string>
     <string name="bar3">Kukaramakara</string>
-    <string name="bar3info">Esta es la información de Kukaramakara</string>
+    <string name="bar3info">Telefono: (57 2) 653 5389\n\r Dirección:  Calle 28N No. 2bis-97 \n\r  Horarios: jueves a sábado de 9pm a 2am \n\r
+        Visita el sitio web: \n\r    http://www.kukaramakara.com/cali/index.php \n\r     Correo: vosyyoespaciotango@hotmail.com</string>
     <string name="bar4">Zaperoco</string>
-    <string name="bar4info">Esta es la información de Zaperoco</string>
+    <string name="bar4info">Telefono: 6612040\n\r Dirección: Av 5N #16-46 \n\r   Visita el sitio web: \n\r
+        http://zaperocobar.com/</string>
+
     <string name="turi1">Cali Zoo</string>
-    <string name="turi1info">Esta es la información de Cali Zoo</string>
-    <string name="turi2">Sugar caña Museum</string>
-    <string name="turi2info">Esta es la información de Sugar caña Museum</string>
+    <string name="turi1info">Telefono: (57 2) 488 0888\n\r Dirección: Cra. 2 oeste Calle 14 - Santa Teresita \n\r  Horarios: 9:00AM - 4:30PM
+        Visita el sitio web:   http://www.zoologicodecali.com.co/ \n\r    Tarifas: Adultos $16.000, Niños $11.000</string>
+    <string name="turi2">Museo de la caña de azucar</string>
+    <string name="turi2info">Telefono: 57 (2) 554 0809\n\r Dirección: Calle 9 No. 28-103, Valle del Cauca\n\r  Horarios: 9:00AM - 4:00PM
+        Visita el sitio web: \n\r    http://www.museocanadeazucar.com/ \n\r    Correo: promoeventoscali@hotmail.com</string>
     <string name="turi3">Cristo Rey</string>
-    <string name="turi3info">Esta es la información de Cristo Rey</string>
+    <string name="turi3info">Dirección: Arboledas Santa Teresita, Cali, Valle del Cauca\n\r  Horario recomendado: 9:00 am a 5:00 pm</string>
     <string name="turi4">Feria de Cali</string>
-    <string name="turi4info">Esta es la información de Feria de Cali</string>
+    <string name="turi4info">Entre el 25 y el 30 de diciembre \n\r
+        Visita el sitio web: \n\r    http://www.feriadecali.com/ \n\r</string>
+
     <string name="title_activity_hotel2">hotel2</string>
     <string name="title_activity_hotel3">hotel3</string>
+    <string name="title_activity_bar1">bar1</string>
+    <string name="title_activity_bar2">bar2</string>
+    <string name="title_activity_bar3">bar3</string>
+    <string name="title_activity_bar4">bar4</string>
+    <string name="title_activity_turis1">turis1</string>
+    <string name="title_activity_turis2">turis2</string>
+    <string name="title_activity_turis3">turis3</string>
+    <string name="title_activity_turis4">turis4</string>
 
 </resources>

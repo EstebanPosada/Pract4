@@ -14,6 +14,8 @@ public class Lista_menu {
         this.info = info;
     }
 
+
+
     public int getIdimage() {
         return Idimage;
     }
@@ -22,7 +24,15 @@ public class Lista_menu {
         return info;
     }
 
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
     public String getMenu() {
         return menu;
+    }
+
+    public void setMenu(String menu) {
+        this.menu = menu;
     }
 }
