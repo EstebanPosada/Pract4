@@ -52,7 +52,7 @@
     <string name="encabezado">Cali’s cheerful nature is manifested in salsa, a Caribbean rhythm that is danced here among
         the sugarcane in its own unique way. In this city, nicknamed "Branch of Heaven,” the peaks of Cristo Rey, the hill of
         the Three Crosses, and the hills of San Antonio jut upwards from the plains that make up most of Valle del Cauca.</string>
-    <string name="title_activity_publicidad">Publicidad</string>
+    <string name="title_activity_publicidad">Advertising</string>
     <string name="medio">Además de ser uno de los principales centros urbanos, industriales y culturales de Colombia,
         Cali es un lugar vibrante que anualmente atrae a visitantes de todos los rincones del mundo.
         ¡Prepara tu viaje con esta guía turística y descubre por qué se dice que el cielo tiene sucursal en Colombia!</string>
@@ -71,31 +71,29 @@
     <string name="activi">
         With salsa music always playing in the background, Cali hosts a unique fair and offers a vast array of museums,
         colonial churches, a zoo, and sites of great environmental importance in the surrounding area.</string>
-    <string name="title_activity_list_hotels">listHotels</string>
-    <string name="title_activity_bars">bars</string>
-    <string name="title_activity_turistic">turistic</string>
-    <string name="title_activity_demografia">Demografia</string>
+    <string name="title_activity_list_hotels">Hotels</string>
+    <string name="title_activity_bars">Bars</string>
+    <string name="title_activity_turistic">Turistic</string>
+    <string name="title_activity_demografia">Demographic</string>
 
-    <string name="demo1">Cali no escapa a la tendencia colombiana de crecimiento de las áreas urbanas en detrimento de la población rural, tanto así que la ciudad (y su área metropolitana) duplicó su participación en la población vallecaucana y del país, hoy en día más del 60% de la población del Valle del Cauca habita en Cali y su área metropolitana.</string>
-    <string name="demo2">En cuanto a la distribución de la población, Cali es una ciudad habitada por gente joven según estadísticas del DANE. El grueso de la población es menor de 40 años. También se observa una mayor población de mujeres en casi todos los rangos de edad, excepto entre la población más joven, igualmente se ve como la edad promedio de las mujeres es mayor que la de los hombres.</string>
-    <string name="demo3">Un aspecto destacado de la demografía caleña, y en general del occidente colombiano, es el alto porcentaje de población afro-colombiana, aproximadamente un 26%,32 lo que hace de Cali una de las urbes latinoamericanas con mayor población de raza negra. La influencia afro-colombiana en la cultura caleña es evidente en los aspectos musicales, por ejemplo, la ciudad es reconocida por sus orquestas de música salsa.</string>
+    <string name="demo1">Cali has no scape to the Colombian trend of growth of urban areas to the damage of rural population, so much the state (and its metropolitan area) doubled its participation in the vallecaucana population and the country, today more than 60% of the population of Valle del Cauca lives in Cali and its metropolitan area.</string>
+    <string name="demo2">As for the distribution dela population, Cali is a city inhabited by young people according to statistics from DANE. The major of the population is under 40 years. A larger population of women is also observed in almost all age ranges, except among the younger population, also looks like the average age of women is higher than men\'s.</string>
+    <string name="demo3">A highlight of the Cali demographics, and generally in western Colombia, is the highest percentage of Afro-Colombian population, approximately 26%, making Cali one of the Latin American cities with larger black population. The Afro-Colombian influence in the Cali culture is evident in the musical aspects, for example, the city is known for its salsa orchestras.</string>
     <string name="title_activity_about">About</string>
-    <string name="about_me">Esteban Posada Vásquez
-    Estudiante Ingeniería Electrónica
-    Cursando Noveno Semestre
-    Técnico en manteniemiento y reparación de computadores
-    Soltero
-    Tel: 321 725 51 99
-    Correo: sircpos@hotmail.com</string>
-    <string name="title_activity_hotel1">hotel1</string>
+    <string name="about_me">\rEsteban Posada Vásquez\n\r
+        Electronic Engineering StudentCoursing ninth semester\n\r
+        Computer maintenance and reparation technician\n\r
+        Phone num: 321 725 51 99\n\r
+        E-mail: sircpos@hotmail.com</string>
+    <string name="title_activity_hotel1">Casa Alferez</string>
 
     <string name="hotel1">Casa Alferez</string>
-    <string name="hotel1info">Phone number:  (572) 661 8111\n\r Address: 9North Av 9-24 Sector B \n\r   Visit website: \n\r
+    <string name="hotel1info">\rPhone number:  (572) 661 8111\n\r Address: 9North Av 9-24 Sector B \n\r   Visit website: \n\r
         https://www.movichhotels.com/esp/cali/casadelalferez/Pages/index.aspx</string>
     <string name="hotel2">Dann Carlton</string>
     <string name="hotel2info">Phone number: (57 2) 886 2000 \n\r Address: 2ªAv Nº 1-60 \n\r   Visit website: \n\r
         https://www.hotelesdanncali.com.co/portal \n\r     E-mail: reservas@hotelesdanncali.com.co</string>
-    <string name="hotel3">International</string>
+    <string name="hotel3">Intercontinental</string>
     <string name="hotel3info">Phone number: 8823225\n\r Address: Colombia Av No. 2-72 \n\r   Visit website: \n\r
         http://www.ihg.com/intercontinental/hotels/us/es/reservation \n\r     E-mail: iccali.reservas@ihg.com</string>
 
@@ -121,18 +119,18 @@
     <string name="turi3">Cristo Rey</string>
     <string name="turi3info">Address: Arboledas Santa Teresita, Cali, Valle del Cauca\n\r  Recomended Schedule: 9:00 am a 5:00 pm</string>
     <string name="turi4">Feria de Cali</string>
-    <string name="turi4info">Betwen 25th and 30th December \n\r
+    <string name="turi4info">Between 25th and 30th December \n\r
         Visit website: \n\r    http://www.feriadecali.com/ \n\r</string>
 
-    <string name="title_activity_hotel2">hotel2</string>
-    <string name="title_activity_hotel3">hotel3</string>
-    <string name="title_activity_bar1">bar1</string>
-    <string name="title_activity_bar2">bar2</string>
-    <string name="title_activity_bar3">bar3</string>
-    <string name="title_activity_bar4">bar4</string>
-    <string name="title_activity_turis1">turis1</string>
-    <string name="title_activity_turis2">turis2</string>
-    <string name="title_activity_turis3">turis3</string>
-    <string name="title_activity_turis4">turis4</string>
+    <string name="title_activity_hotel2">Dann Carlton</string>
+    <string name="title_activity_hotel3">Intercontinental</string>
+    <string name="title_activity_bar1">Delirio Bar</string>
+    <string name="title_activity_bar2">Fonda la Matraca</string>
+    <string name="title_activity_bar3">Kukaramakara</string>
+    <string name="title_activity_bar4">Zaperoco</string>
+    <string name="title_activity_turis1">Cali Zoo</string>
+    <string name="title_activity_turis2">Caña de azucar museum</string>
+    <string name="title_activity_turis3">Cristo Rey</string>
+    <string name="title_activity_turis4">Feria de Cali</string>
 
 </resources>
